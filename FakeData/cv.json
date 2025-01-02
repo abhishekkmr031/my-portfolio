@@ -1,0 +1,31 @@
+{
+  "name": "Abhishek Kumar",
+  "phone": "Phone · 7975142432",
+  "email": "abhishekkmr031@gmail.com",
+  "linkedIn": "https://www.linkedin.com/in/abhishek-kumar-193369a4/",
+  "objective": "Experienced software developer with a passion for tackling challenges head-on and delivering innovative solutions. With 7 years of industry experience, I thrive in environments where professional challenges excite me and drive my commitment to continuous learning and self-improvement. My proactive approach ensures fast delivery of high-quality solutions, and my ability to independently figure out solutions allows me to excel in dynamic work environments. Seeking opportunities where I can leverage my expertise to contribute to cutting-edge projects while staying updated with the latest technologies and methodologies in software development.",
+  "experience": [
+    {
+      "timeline": "March 2022 - Present",
+      "title": "Associate Architect II",
+      "company": "Devon",
+      "points": ["Created synchronization service using orchestrator microservices serverless architecture.",
+        "Implemented authentication and authorization system to restrict 100% power BI user.",
+        "Successfully implemented webhook using .NET Core and azure service bus topics to show notifications."
+      ]
+    },
+    {
+      "timeline": "Nov 2017 – mar 2022",
+      "title": "Associate Consultant",
+      "company": "Capgemini",
+      "points": ["Working with Tech Lead to rebuild application and to improve its performance and dataflows. Took lead in improving the performance of GUI application.",
+        "Implemented data quality check system to bring data inconsistencies in notice of business. Completed automation of three processes in project and reduce needed human interaction by 95%.",
+        "Successfully converted GUI application from sequential to parallel(asynchronous). Delivered multiple successful sprints with critical user stories and high priority bug fixes. Assisted Functional Team and Clients with IT testing and UAT.",
+        "Instrumental in clearing User Stories backlog.",
+        "Received appreciation for technical analysis of user requirements and for resolving critical issues promptly."
+      ]
+    }
+  ],
+  "certifications": ["Microsoft Azure Certification AZ-900", "Professional SCRUM Master - 1"],
+  "skills": ["C#", "Azure Cloud", "React JS", "SOLID Principles", ".NET"]
+}
