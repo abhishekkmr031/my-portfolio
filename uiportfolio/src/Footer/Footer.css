@@ -2,5 +2,8 @@
     position: relative;
     background-color:greenyellow; 
     width: 80%;
+    height:50px;
+    padding:10px;
     margin: auto;
+    text-align: center;
 }
