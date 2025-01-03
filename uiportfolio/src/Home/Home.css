@@ -26,8 +26,15 @@
     text-decoration: none;
 }
 
-.linkedin, a:link, a:visited{
+.linkedin,.linkedin a:link{
     text-align: center;    
+    margin:0;
+    color: green;
+}
+
+
+.linkedin a:visited{
+    text-align: center;
     margin:0;
     color: green;
 }

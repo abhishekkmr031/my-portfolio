@@ -1,0 +1,39 @@
+.login{
+    position: relative;
+    height: auto;
+    width: 100%;
+    background-color: #4e4f55;
+}
+
+.login-form{
+    position: relative;
+    display: block;
+    background-color: #e8e8ed;
+    width: 60%;
+    max-width: 500px;
+    height: auto;
+    padding:10px;
+    margin:auto;
+    border: 2px ridge red;
+   
+}
+.login-form label{
+    display: block;
+    margin: 15px;
+}
+
+.login-form input{
+    display: block;
+    width: 80%;
+    height: 20px;
+    margin-top: 5px;
+    padding:5px;
+    border: none;
+}
+#submit{
+    background-color: #4fac30;
+    height: 20px;
+    width: 40%;
+    margin:auto;
+    padding:2px 5px;
+}
