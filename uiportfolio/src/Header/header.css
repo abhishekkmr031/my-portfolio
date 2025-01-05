@@ -4,6 +4,7 @@
     background-color:cornflowerblue;
     width:100%;
     padding: 20px;
+    color:blanchedalmond;
 }
 
 a{
@@ -11,6 +12,5 @@ a{
     padding:10px;
     height: 20px;
     text-decoration: none;
-    color:blanchedalmond;
-    
+    color:blanchedalmond;    
 }

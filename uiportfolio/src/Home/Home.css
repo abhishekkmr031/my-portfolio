@@ -7,7 +7,7 @@
     width:80%;
     height:auto;
     margin:10px auto;
-    border:2px solid black;
+    border:2px solid;
     padding:10px;
     align-content: center;
 }
@@ -16,7 +16,7 @@
     display: block;
     width:175px;
     height:175px;
-    border:6px solid #efede9;
+    border:6px solid;
     border-radius:50%;
 }
 

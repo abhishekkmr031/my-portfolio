@@ -35,7 +35,7 @@ function ExperienceCard(timeline, title, company, expPointsArray){
             </span>
             <div>
                 {expPointsArray.map((item, i) => {
-                    console.log(item);
+                    //console.log(item);
                     return(listItem(i, item))
                 })}
             </div>             
@@ -64,7 +64,7 @@ function NameAddress(){
 
 function photo(){
     return(
-        <img className="home-img" src={require("./bluebg.jpeg")} alt="image of person"/>
+        <img className="home-img" src={require("./bluebg.jpeg")} alt="person"/>
     )
 }
 

@@ -1,6 +1,11 @@
+
+
 function About(){
     return(
-        <h1> About Me page</h1>
+        <div>
+            <h1>this is about page</h1>
+        </div>
+      
     );
 }
 
