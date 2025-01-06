@@ -15,14 +15,19 @@ function Login() {
          const {name, value} = e.target;
 
         setUser((prev) => ({...prev, [name]: value}));
+        if(name==="firstname"){
+            setUserInfo(value);
+        }
     }
 
     function handleSubmit(e) {
         e.preventDefault();
         
         setLogin(true);
-        setUserInfo(user.firstname);
-        //console.log(login);
+        console.log("user from login " +user.firstname);
+        
+        console.log( "userinfo from login " + userInfo);
+        
     }
 
     return (        

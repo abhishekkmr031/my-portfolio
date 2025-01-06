@@ -48,20 +48,29 @@ function PasswordGenerator(){
     }
     function PwdOutput(){
         return (
-            <div className={pwdLength.value >= 4 && pwdLength.value < 8 ? "pwd-box pwd-show-weak"
-                : pwdLength.value >= 8 && pwdLength.value <= 16 ? "pwd-box pwd-show-medium"
-                    : "pwd-box pwd-show-strong"}>
-                <input className={pwdLength.value >= 4 && pwdLength.value < 8 ? "pwd-show pwd-show-weak"
-                           : pwdLength.value >= 8 && pwdLength.value <= 16 ? "pwd-show pwd-show-medium"
-                               : "pwd-show pwd-show-strong"}
-                       type={"text"} value={password} readOnly={true}/>
-                
-                <button onClick={handleGeneratePwd}>Refresh</button>
-            </div>
+            <>
+                <div className={pwdLength.value >= 4 && pwdLength.value < 8 ? "pwd-box pwd-show-weak"
+                    : pwdLength.value >= 8 && pwdLength.value <= 16 ? "pwd-box pwd-show-medium"
+                        : "pwd-box pwd-show-strong"}>
+                    <input className={pwdLength.value >= 4 && pwdLength.value < 8 ? "pwd-show pwd-show-weak"
+                        : pwdLength.value >= 8 && pwdLength.value <= 16 ? "pwd-show pwd-show-medium"
+                            : "pwd-show pwd-show-strong"}
+                           type={"text"} value={password} readOnly={true}/>
+
+                    <button onClick={handleGeneratePwd}>Refresh</button>
+                    <div>
+                        {pwdLength.value >= 4 && pwdLength.value < 8 ? "Weak"
+                            : pwdLength.value >= 8 && pwdLength.value <= 16 ? "Medium"
+                                : "Strong"}
+                    </div>
+                </div>
+
+            </>
+
         )
     }
 
-    function PwdConfigSection(){
+    function PwdConfigSection() {
         return (
             <div className="pwdConfig">
                 <label>letters</label>
@@ -69,7 +78,7 @@ function PasswordGenerator(){
                 <label>numbers</label>
                 <input type="checkbox" name="numbers" checked={pwdConfig.numbers} onChange={handleConfigChange}/>
                 <label>mixedCase</label>
-                <input type="checkbox" name="mixedCase" checked={pwdConfig.mixedCase} 
+                <input type="checkbox" name="mixedCase" checked={pwdConfig.mixedCase}
                        onChange={handleConfigChange} disabled={!pwdConfig.letters}/>
                 <label>specialChars</label>
                 <input type="checkbox" name="specialChars" checked={pwdConfig.specialChars} onChange={handleConfigChange}/>
