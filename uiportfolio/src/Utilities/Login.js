@@ -1,6 +1,6 @@
 import {useState} from "react";
-import "./Login.css"
 import {useAuth} from "./AuthContext";
+import "./Login.css"
 
 function Login() {
     const [user, setUser] = useState({
@@ -10,13 +10,9 @@ function Login() {
     });
 
     const {login, setLogin, userInfo, setUserInfo} = useAuth();
-    // 
-
 
     function handleOnChange(e) {
-        //console.log(abc);
-        const {name, value} = e.target;
-        //console.log(e.target);
+         const {name, value} = e.target;
 
         setUser((prev) => ({...prev, [name]: value}));
     }
